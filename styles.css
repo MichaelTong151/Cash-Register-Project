@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #FAEBD7;
+    color: #dfdfe2;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: black;
+    font-family: Sans-serif;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  #change-due {
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: Sans-serif;
+    color: black;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0 20px;
+  }
+  
+  label {
+    font-size: 20px;
+    color: black;
+    font-family: Sans-serif;
+  }
+  
+  .user-input {
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+  }
+  
+  .price-display {
+    border: 10px solid #C0C0C0;
+    background-color: black;
+    height: 55px;
+    width: 200px;
+    margin-left: -40px;
+    margin-top: 21px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #price {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .connection-bracket {
+    margin-left: -20px;
+    background-color: #C0C0C0;
+    height: 32px;
+    width: 40px;
+  }
+  
+  .top-register {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 35px 35px 0 0;
+    padding-top: 20px;
+    background-color: #C0C0C0;
+    height: 250px;
+    width: 325px;
+  }
+  
+  .btns-container {
+    width: 25%;
+  }
+  
+  .btn {
+    border-radius: 25%;
+    border: none;
+    width: 22px;
+    height: 22px;
+    background-color: black;
+  }
+  
+  .btn-css {
+    width: 182px;
+    height: 42px;
+    background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 1px 3px 0px rgb(139, 113, 255);
+    transition-duration: .3s;
+    padding: 23px;
+    margin-top: 20px;
+  }
+  
+  .register-drawer-display {
+    font-size: 1.1rem;
+    background-color: white;
+    width: 55%;
+    height: 95%;
+    color: black;
+    padding: 20px;
+  }
+  
+  .bottom-register {
+    background-color: #C0C0C0;
+    height: 50px;
+    width: 325px;
+    margin-top: 10px;
+  }
+  
+  .handle {
+    margin: 15px auto;
+    border-radius: 15%;
+    width: 60px;
+    height: 12px;
+    background-color: black;
+  }
+  
